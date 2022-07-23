@@ -50,55 +50,10 @@
 textarea{
     width: 50%;
 }
-@media screen and (max-width:480px) {
+
+@media screen and (max-width:810px) {
     .c-wrapper {
-        flex-direction: column;
-        padding: 0px 50px;
-        
-      }
-    
-      .c--form-h1 {
-        font-size: 30px;
-      }
-    
-      .c-info-item{
-        margin: 50px 0px;
-        width: 100%;
-      }
-     
-      
-      
-    
-      .c-form {
-        width: 13rem;
-      }
-    
-      .i1 {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0px;
-      }
-      .i2 {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-      }
-      .i3 {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-      }
-    
-      button {
-        margin-top: 10px;
-      }
-}
-@media screen and (max-width:850px) {
-    .c-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0px 50px;
         padding-left: 5rem;
       }
@@ -116,7 +71,7 @@ textarea{
       
     
       .c-form {
-        width: 22rem;
+        width: 20rem !important;
       }
     
       .i1 {
@@ -141,4 +96,53 @@ textarea{
       button {
         margin-top: 10px;
       }
+      @media screen and (max-width:480px) {
+        .c-wrapper {
+            flex-direction: column-reverse;
+            padding: 0px 50px;
+            
+          }
+        
+          .c--form-h1 {
+            font-size: 30px;
+          }
+        
+          .c-info-item{
+            margin: 50px 0px;
+            width: 100%;
+          }
+         
+          
+          
+          
+        
+          .c-form {
+            width: 12rem   !important;
+          }
+        
+          .i1 {
+            width: 35%;
+            height: 40px;
+            margin: 10px;
+            margin-left: 0px;
+          }
+          .i2 {
+            width: 35%;
+            height: 40px;
+            margin: 10px;
+            margin-left: 0;
+          }
+          .i3 {
+            width: 35%;
+            height: 40px;
+            margin: 10px;
+            margin-left: 0;
+          }
+        
+          button {
+            margin-top: 10px;
+          }
+    }
+    
+  
 }

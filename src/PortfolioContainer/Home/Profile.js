@@ -10,16 +10,16 @@ export default function Profile(){
                     <div className="colz">
                         <div className="colz-icon">
 
-                        <a href="/#">
+                        <a href="https://www.instagram.com/tejasbitale_007/">
                             <i className="fa fa-instagram" ></i>
                         </a>
-                        <a href="/#">
+                        <a href="https://www.facebook.com/profile.php?id=100083750922546&sk=friends">
                             <i className="fa fa-facebook-square"></i>
                         </a>
                         <a href="/#">
                             <i className="fa fa-google-plus-square" ></i>
                         </a>
-                        <a href="/#">
+                        <a href="https://www.linkedin.com/in/tejas-bitale-664a751aa/">
                             <i className="fa fa-linkedin-square" ></i>
                         </a>
                         <a href="https://github.com/tejasbitale007">
