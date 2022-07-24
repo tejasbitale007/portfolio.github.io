@@ -22,10 +22,10 @@ export default function aboutme(){
           knack of building application with front and back end operations.
           </p>
           <p className="a-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+            🔴I'm a developer. <br></br>🔴I had developed sites in MERN stack. I had a knowledge related to API's.Currently Im working on backend part of the web development.<br></br><br></br>
+            <b>My Interest</b> <br></br>🔴I'm always interested to make new friends.<br></br>
+            🔴 Watching new movies.<br></br>
+            🔴 Swiming.
           </p>
           
           

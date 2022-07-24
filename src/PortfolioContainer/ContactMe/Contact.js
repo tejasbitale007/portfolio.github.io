@@ -2,6 +2,7 @@ import React,{useRef,useState} from 'react';
 import './contact.css'
 // import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
+// import { Alert } from 'react-alert';
 
 function Contact() {
     const form = useRef();
@@ -18,6 +19,7 @@ function Contact() {
         }, (error) => {
             console.log(error.text);
         });}
+        
     return (
         <div className='c'>
             <div className='c-bg'>
@@ -35,8 +37,9 @@ function Contact() {
                         <input type="textarea" placeholder="Subject" name="user_sub"  className='i3'></input><br></br>
                         
                         <textarea rows="5" placeholder="Message" name="message"></textarea><br></br>
-                        <input type="submit" value="send" className='button'></input>
-                        {done && "thankyou"}
+                        <input type="submit" value="send" className='button' ></input>
+                        
+                        {done }
                     </form>
                   </div>
                 </div>
@@ -44,5 +47,4 @@ function Contact() {
         </div>
     );
 }
-
 export default Contact;
