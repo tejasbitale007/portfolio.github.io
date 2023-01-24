@@ -17,13 +17,14 @@
   
   .a-right {
     flex: 1;
+    
   }
   
   .a-card.bg {
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: #333;
+    background-color: whitesmoke;
   }
   
   .a-card {
@@ -48,15 +49,17 @@
   
   .a-title {
     font-weight: 400;
-    
+    color: aliceblue;
   }
 
   .a-sub {
     margin: 20px 0px;
+    color: aliceblue;
   }
   
   .a-desc{
       font-weight: 300;
+      color: aliceblue;
   }
   @media screen and (max-width:480px) {
     .a{

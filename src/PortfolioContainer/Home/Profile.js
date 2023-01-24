@@ -41,14 +41,14 @@ export default function Profile(){
                                 {" "}
                                 <Typical
                                     loop={Infinity}
-                                    steps={[
-                                        "Enthusiastic Dev🔴",
+                                    steps={[10,
+                                        "Enthusiastic Dev",
                                         1000,
-                                        "Java Devoloper 😎",
+                                        "Java Devoloper",
                                         1000,
-                                        "MERN stack Dev 💻",
+                                        "MERN stack Dev",
                                         1000,
-                                        "React Dev🌐",
+                                        "React Dev",
                                         1000,
                                     ]}
                                 />
@@ -63,9 +63,10 @@ export default function Profile(){
                         <button className="btn primary-btn">
                             {""}
                             Hire me
-                            {" "}
+                                                  
+                             {" "}
                         </button>
-                        <a href="Resume.pdf" download={'Resume.pdf'}>
+                        <a href="Tejas Bitale.pdf" download={'Tejas Bitale.pdf'}>
                         <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>

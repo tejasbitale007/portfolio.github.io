@@ -17,18 +17,40 @@ export default function aboutme(){
           </div>
         </div>
         <div className="a-right">
-          <h1 className="a-title">About Me</h1>
+        {/* {" "}
+          <Typical
+            loop={Infinity}
+            steps={[
+              "About Me .....",
+              10000,
+              "About Me .....",
+              10000,
+            ]}/> */}
+          <h1 className="a-title">
+          {" "}
+          <Typical
+            loop={onpageshow}
+            steps={[1000,
+              "About Me .....",
+              1000,
+              "I am a Enthusiastic , dedicated CSE Student.",
+              10000,
+              
+            ]}/></h1>
           <p className="a-sub">
-          knack of building application with front and back end operations.
+          I am hardworking and proactive student with having strong coding skills. I have good knowledge about <br></br>the technologies. Apart From that Im good in Core Java. talking towords my Non-technical skills that I am having good leadership qualities, and 
+          I am good in time management.
           </p>
           <p className="a-desc">
-            🔴I'm a developer. <br></br>🔴I had developed sites in MERN stack. I had a knowledge related to API's.Currently Im working on backend part of the web development.<br></br><br></br>
-            <b>My Interest</b> <br></br>🔴I'm always interested to make new friends.<br></br>
-            🔴 Watching new movies.<br></br>
-            🔴 Swiming.
+            --> I am a web developer. <br></br>--> Languages - HTML, CSS , Javascript , C , Core Java .<br></br>--> Databases- MYSQL , MONGODB <br></br><br></br>
+            <b>My Interest</b> <br></br>--> I am always interested to make new friends.<br></br>
+            --> Visiting Different places.<br></br>
+            --> Swiming.
           </p>
           
-          
+          {/* <div className="video">
+            <a href=""
+          </div> */}
         </div>
       </div>
     
