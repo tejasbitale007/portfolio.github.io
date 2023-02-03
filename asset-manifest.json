@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.97d6643a.css",
+    "main.js": "/portfolio.github.io/static/js/main.dbc324c6.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio.github.io/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/tejas.jpg": "/portfolio.github.io/static/media/tejas.7f7ec00bb969a5d88ee0.jpg",
+    "index.html": "/portfolio.github.io/index.html",
+    "static/media/Premium-Dark.avif": "/portfolio.github.io/static/media/Premium-Dark.74238df228fbeb9ab665.avif",
+    "main.97d6643a.css.map": "/portfolio.github.io/static/css/main.97d6643a.css.map",
+    "main.dbc324c6.js.map": "/portfolio.github.io/static/js/main.dbc324c6.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio.github.io/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97d6643a.css",
+    "static/js/main.dbc324c6.js"
+  ]
+}
